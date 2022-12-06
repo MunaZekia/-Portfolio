@@ -95,14 +95,14 @@ a{
 }
 #hero .cta{
     display: inline-block;
-    padding: 10px 30px;
+    padding: 5x 5x;
     color: white;
     background-color: transparent;
     border: 2px solid white;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 1rem;
-    margin-top: 30px;
+    margin-top: 3px;
     transition: 3s ease background-color, color;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -117,8 +117,8 @@ a{
     float: right;
     padding: 5px;
     font-size: large;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
     
     
 }
@@ -128,10 +128,19 @@ a{
     transition: .15s;
 
 }
-.header div ul li {
-    display: inline-block;
-    margin-right: 25px;
+li {
+    display: inline;
+    float: center;
+    padding: 7px;
+    background-color: rgb(226, 225, 225);
+    opacity: .8;
+    cursor: pointer;
 }
+li a:hover {
+background-color: goldenrod;
+    
+}
+
 
 .project-img img{
     display: block;
@@ -142,8 +151,6 @@ a{
     margin-right: auto;
     padding: 30px;
 }
-
-
 .project-img img {
     background-repeat: no-repeat;
      transform: scale(1);
@@ -151,9 +158,7 @@ a{
 }
 .project-img:hover img{
     transform: scale(1.2);
-
 }
-
 #project-img::after{
     content:'';
     position: absolute;
@@ -166,7 +171,7 @@ a{
     z-index: -1;
 }
  .project-item {
-    flex-basis: 80%;
+    flex-basis: 50%;
     font-size: 1.5rem;
     font-weight: lighter;
     text-transform: uppercase;
@@ -175,10 +180,7 @@ a{
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding: 30px;
-    border-radius: 60px;
-    margin: 1px;
-   
+    padding: 28px;
 }
 
 #project .projects {
@@ -186,11 +188,11 @@ a{
     text-align: center;
     max-width: 1200px; 
     margin: 0 auto;
-    padding: 100px;
+    padding: 10px;
     
 }
 #projects .projects-header h1{
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 #projects .all-projects{
     display: flex;
@@ -201,7 +203,7 @@ a{
 }
 
 #projects .project-info{
-    padding: 30px;
+    
     flex-basis: 50%;
     height: 100%;
     display: flex;
@@ -210,12 +212,11 @@ a{
     flex-direction: column;  
 }
 
-
  .section-title{
     font-size: 3rem;
     font-weight: 300;
     color: goldenrod;
-    margin-top: 2%;
+    margin-bottom: .2%;
     text-transform: uppercase;
     letter-spacing: 1.5rem;   
     text-align: center;
@@ -226,41 +227,35 @@ a{
     background-image: url(1MUNAimg/background.jpeg);
     background-size: cover;
     background-position: top center;
-    position: relative;
-
-   
+    position: relative; 
 } 
 
 #about .about{
-    flex-direction: column-reverse;
-    text-align: center;
-    max-width: 2%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-  
-   
+    text-align:center;
+    flex-basis: 50%;
+    display: flex;
+    align-content: center;
 }
 #about .about-img {
     width:10%;
-    max-width: 5%;
-    margin-top: 5%;
-    margin-bottom: 10%;
-}
-#about .about-img{
-    width: 35%;
+    margin-bottom: 5%;
     
 }
+
+
 #about .col-right{
     width: 50%;
-    text-align: center;
+    text-align:center
+    
+
     
 }
 #about .col-right h2{
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: .2rem;
-    margin-bottom: 20px;
-    margin-top: 2px;
+    margin-bottom: 5%;
+    margin-top: 5%;
     color: whitesmoke;
 }
 #about .col-right p {
@@ -270,7 +265,7 @@ a{
     color: white;
     letter-spacing: .3rem;
     font-style:normal;
-   flex-direction: column;
+    padding: 10px;
 }
 
 #about {
@@ -278,28 +273,22 @@ a{
     background-size: cover;
     background-position: top center;
     position: relative;
-}
-.about-img img {
-    width: 10%;
-    padding: 30px;
-    display: flex;
-    
-}
+    flex-direction: column;
 
+
+}
 /* Contact section */
 #contact .contact {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
 }
-
 #contact .contact-items{
-    width: 100%;}
+    width: 50%;}
 #contact .contact-items{
     width: 80%;
-    padding: 20px;
     text-align: 15px;
-    padding: 30px;
+    padding: 25px;
     margin: 30px;
     display: flex;
     justify-content: center;
@@ -352,10 +341,5 @@ a{
         padding: 20px 60px;
     }
 }
-#about .about .col.left .about-img::after {
-    left: -45px;
-    top: 34px;
-    height: 98%;
-    width: 98%;
-    border: 10px sold goldenrod;
-}
+
+
